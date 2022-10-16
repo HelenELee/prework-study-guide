@@ -17,18 +17,29 @@
       <section class="card" id="html-section">
       <h2>HTML</h2>
       <ul>
-        <li>The head element contains infor about the webpage.</li>
+        <li>The head element contains information about the webpage.</li>
         <li>The head element contains the metadata</li>
         <li>Metadata attributes include description, keywords, anchor, author, viewport, http-equiv</li>
         <li>Head element contains the Title tag (needed for SEO)</li>
         <li>Semantic HTML elements - name of element describes the content and role eg head, body (not div)</li>
         <li>Body tag contains header, main and footer tags</li>
         <li>Use section tag to separate content in body</li>
+        <li>h1 to h6 tags for headings. h1 is largest, use only once per page.</li>
+        <li>alt tag used for text description in images. Helps screen readers and SEO.</li>
       </ul>
     </section>
       <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
+        <li>Colours, asthetics, visual layout, organisation</li>
+        <li>Inline - CSS added directly to tag in  html. Only impacts that tag.</li>
+        <li>Internal - style added to head of page - impacts all that page.</li>
+        <li>External - CSS in external file. Added to page vie link tag. Same stylesheet be used throughout web site if required.</li>
+        <li>Separation of Concerns - design is modular, easier to maintain, upgrade, reuse (but may impact performance due to extra code to interface with modules)</li>
+        <li>Selector - choose the tag, id, class to apply style to</li>
+        <li>Declaration - style</li>
+        <li>Block elements - take up width of screen. Inline elements - take up width of text only</li>
+        <li>CSS Box - padding, border, margin, content</li>
         <li>A margin indicates how much space we want around the outside of an element.</li>
         <li>A padding indicates how much space we want around the content inside an element.</li>
         <li>Padding and margin can add to the overall size of the element. To stop this use box-sizing</li>
@@ -45,11 +56,26 @@
           <li>git commit - m "message" : captures snapshot of currently staged changes and commits</li>
           <li>git pull origin main: pull the latest version of main into the local branch (origin means sourse is GitHub, main means main branch)</li>
           <li>git push origin feature/add-git: push local changes to remote GitHub server</li>
+          <li>In GitHub repository - go to branch eg feature/add-js</li>
+          <li>Go to Pull requests tab - click Create pull request</li>
+          <li>Complete PR form - title, description</li>
+          <li>Click Merge Pull Request and Confirm Merge</li>
+          <li>Close issue</li>
+          <li>Make sure changes are in local main branch - in terminal: git checkout main, git pull origin main</li>
+          <li>Deployment - navigate to Prework Study Guide HitHub repo</li>
+          <li>Select Settings</li>
+          <li>Select pages</li>
+          <li>Under source - Branch : main and /root then Save</li>
+          <li>Publishing may take a few minutes - website https://username.github.io/repository-name eg https://helenelee.github.io/prework-study-guide</li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
+          <li>Invented by Brendan Eich. </li>
+          <li>Data Types - weak/dynamic typing</li>
+          <li>Prmitive data types - String, Number, BigInt, Boolean, Null, Undefined, Symbol</li>
+          <li>Non-Primitive data type - object</li>
           <li>Arrays - can store data of different types.</li>
           <li>falsy - false, 0, -0, 0n, on, "", '', ``, null, undefined, NaN, document.all</li>
           <li>truthy - everything else</li>
@@ -57,6 +83,7 @@
           <li>Control flow is the order in which a computer executes code in a script.</li>
           <li>"If" statements are used to control flow in javascript</li>
           <li>"Functions" group code together so it can be called when needed.</li>
+          <li>DRY - Do not Repart yourself - reuse code, do not write twice</li>
         </ul>
         
       </section>
